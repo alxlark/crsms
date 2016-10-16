@@ -1,6 +1,8 @@
 node_modules
 .sass-cache
 .tmp
+database
+server/gmail.js
 build
 vendor
 app/assets/css
@@ -8,4 +10,5 @@ app/assets/fonts
 app/styles/main.min.css
 app/styles/main.min.css.map
 server/log.log
+server/server/
 npm-debug.log
