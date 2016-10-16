@@ -27,10 +27,13 @@ Check installation through Start Command Prompt with Ruby or any cmd:
 	gem install sass
 
 
-*NOTE:* on Windows 7 may be error like
-`ERROR:  Could not find a valid gem 'sass' (>= 0), here is why:...`
-Fix:
-`gem sources -a http://rubygems.org/` then type `y` to confirm. Try again `gem install sass`
+>*NOTE:* on Windows 7 may be error like
+>
+>`ERROR:  Could not find a valid gem 'sass' (>= 0), here is why:...`
+>
+>Fix:
+>
+>`gem sources -a http://rubygems.org/` then type `y` to confirm. Try again `gem install sass`
 
 ![alt text](./src/img/sass-check.png "Checking sass installing")
 
@@ -99,3 +102,14 @@ Check installation through any cmd:
 
 > Attention!
 > Check git path in environment variables: Computer -> Properties -> Additional system parameters -> Enviroment variables: >add something like C:\Program Files (x86)\Git\bin to system variables
+
+### 6. NPM Install issues
+
+In case of errors
+
+![alt text](./src/img/npm_i_1.png "")
+
+
+Run `npm cache clean` and `npm update -g` to fix problems
+
+![alt text](./src/img/npm_i_2.png "")
